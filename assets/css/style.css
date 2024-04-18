@@ -1,0 +1,108 @@
+/*
+NOM : KAYA RHABBY
+Prénom :Pascia Hershe
+
+NOM : ANDRIANIAINA
+Prénom :Ny Haja Nirina
+
+*/
+
+body{
+    /*position: relative;*/
+    background-color: #a6f2d1;
+    font-family: sans-serif;
+}
+
+footer {
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+button {
+    border-radius: 90px;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+div#puzzlearea {
+    width: 368px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.tuile {
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(222, 182, 92);
+    text-align: center;
+    position: relative;
+    background-size: contain;
+    object-fit: contain; 
+    background-color: darkorange;
+}
+
+.tuile img {
+    width: 100%;
+    height: 101%;
+    
+}
+
+.tuile p {
+    color: rgb(105, 105, 105);
+    font-size: 110%;
+    text-shadow: 1px 0 0 #fff,
+    -1px 0 0 #fff,
+    0 1px 0 #fff,
+    0 -1px 0 #fff,
+    1px 1px #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* text-shadow: 1px 0 0 #fff,
+    -1px 0 0 #fff,
+    0 1px 0 #fff,
+    0 -1px 0 #fff,
+    1px 1px #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff;
+    
+la propriété text-shadow ci-dessus agit sur les nombre à l'interieur des tuiles,
+elle applique notamment une ombre assez épaise et de couleur blanche sur les bordures des nombres */
+#output {
+    color: rgb(102, 0, 0);
+    font-size: 150%;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+#container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
